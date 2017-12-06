@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channels>
+    <channel id="A_Archiver" description="Spool" >
+        <trigger/>
+        <localSpool db="F:/notifier/database/A_Archiver" root="F:/foto/input/A_Archiver" subdir="true" delay="5" maxevent="1000" ext="false" includes=".*\.(JPG|jpg|PNG|png|BMP|bmp|TIF|tif)$" excludes=".*\.(xmp|tmp)$" retain="7" >
+            <fileEventWriter path="F:/notifier/arclogs/arclog_#.xml" />
+            <logEventWriter path="F:/notifier/txtlogs/A_Archiver" />
+        </localSpool>
+    </channel>
+    <channel id="Archives" description="Spool" >
+        <trigger/>
+        <localSpool db="F:/notifier/database/Archives" root="F:/foto/input/Archives" subdir="true" delay="5" maxevent="1000" ext="false" includes=".*\.(JPG|jpg|PNG|png|BMP|bmp|TIF|tif)$" excludes=".*\.(xmp|tmp)$" retain="7" >
+            <fileEventWriter path="F:/notifier/arclogs/arclog_#.xml" />
+            <logEventWriter path="F:/notifier/txtlogs/Archives" />
+        </localSpool>
+    </channel>
+    <channel id="Archives_Loisirs" description="Spool" >
+        <trigger/>
+        <localSpool db="F:/notifier/database/Archives_Loisirs" root="F:/foto/input/Archives_Loisirs" subdir="true" delay="5" maxevent="1000" ext="false" includes=".*\.(JPG|jpg|PNG|png|BMP|bmp|TIF|tif)$" excludes=".*\.(xmp|tmp)$" retain="7" >
+            <fileEventWriter path="F:/notifier/arclogs/arclog_#.xml" />
+            <logEventWriter path="F:/notifier/txtlogs/Archives_Loisirs" />
+        </localSpool>
+    </channel>
+    <channel id="Archives_Sports" description="Spool" >
+        <trigger/>
+        <localSpool db="F:/notifier/database/Archives_Sports" root="F:/foto/input/Archives_Sports" subdir="true" delay="5" maxevent="1000" ext="false" includes=".*\.(JPG|jpg|PNG|png|BMP|bmp|TIF|tif)$" excludes=".*\.(xmp|tmp)$" retain="7" >
+            <fileEventWriter path="F:/notifier/arclogs/arclog_#.xml" />
+            <logEventWriter path="F:/notifier/txtlogs/Archives_Sports" />
+        </localSpool>
+    </channel>
+    <channel id="Archives_Temoins" description="Spool" >
+        <trigger/>
+        <localSpool db="F:/notifier/database/Archives_Temoins" root="F:/foto/input/Archives_Temoins" subdir="true" delay="5" maxevent="1000" ext="false" includes=".*\.(JPG|jpg|PNG|png|BMP|bmp|TIF|tif)$" excludes=".*\.(xmp|tmp)$" retain="7" >
+            <fileEventWriter path="F:/notifier/arclogs/arclog_#.xml" />
+            <logEventWriter path="F:/notifier/txtlogs/Archives_Temoins" />
+        </localSpool>
+    </channel>
+</channels>
