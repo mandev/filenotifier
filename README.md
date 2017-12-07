@@ -6,5 +6,5 @@ This software detects fil events (creation, deletion, modification on files or d
 * It can filter files to watch based on regexp rules
 * It saves the state of the watched directory (and subdirectories) in real time
 * It spools the watched directory when starting to check for changes against the saved state
-* It generates an xml file in case of a file system event or change
+* It generates a xml file in case of a file system event or change
 * It works on Windows and Linux and probably on Mac OS
