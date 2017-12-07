@@ -1,4 +1,4 @@
-# filenotifier
+# File Notifier
 This software detects filevents (creation, deletion, modification on files or dir) in a file system. 
 
 * It can watch events in one or more directories simultaneously
