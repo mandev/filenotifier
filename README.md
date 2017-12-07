@@ -3,6 +3,7 @@ This software detects filevents (creation, deletion, modification on files or di
 
 * It can watch events in one or more directories simultaneously
 * It can recursively watch all files and dir from the root directory 
+* It can filter files to watch based on regexp rules
 * It saves the state of the watched directory (and subdirectories) in real time
 * It spools the watched directory when starting to check for changes against the saved state
 * It generates an xml file in case of a file system event or change
