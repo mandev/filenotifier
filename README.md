@@ -12,7 +12,7 @@ File Notifier:
 * can filter files with regexp rules
 * saves the state of the watched directory (and subdirectories) in real time
 * spools the watched directory to detect changes from its last execution (only at start)
-* generates a xml file in case of a file system event or change (time or size based)
+* can output xml or txt files to batch file system events (on time and size based mode)
 * works on Windows and Linux and probably on Mac OS
 
 ### How it works
