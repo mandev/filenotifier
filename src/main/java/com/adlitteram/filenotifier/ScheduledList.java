@@ -79,7 +79,7 @@ abstract public class ScheduledList<T> implements Runnable {
             catch (InterruptedException ex) {
             }
         }
-        flush(); // flush the remaining elemnt in the list
+        flush(); // flush the remaining element in the list
     }
 
     private void checkSize() {
