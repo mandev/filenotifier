@@ -24,7 +24,7 @@ File Notifier:
 5. The watcher also generates an event as soon as a file is added, deleted or modified...
 6. ... and the file new state is then updated in the database
 7. After a delay or if the max number of events is reached, the ouput writers are called
-9. The output writers generate the xml or txt files with the relevant information 
+9. The output writers batch events in xml or txt files 
 10. This process goes on until File Notifier is stopped...
 
 ### Configuration
@@ -41,7 +41,9 @@ Example of channel.xml file :
       <fileEventWriter path="E:/notifier/xml/images/images_#.xml" />
       <logEventWriter path="E:/notifier/log/images/" />
     </localSpool>
+    <!-- You can add localspool here -->
   </channel>
+  <!-- You can add channels here -->
 </channels>
 ```
 with :
