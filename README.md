@@ -51,7 +51,7 @@ with :
 * _channels_: all channels
 
 * _channel_: one channel
-  * _id_: the id of the channel (must be unique in the file)
+  * _id_: the id of the channel (must be unique)
   * _description_: a small description of the channel 
 
 * _trigger_: enable the channel if present
