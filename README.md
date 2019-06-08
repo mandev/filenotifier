@@ -37,7 +37,10 @@ Example of channel.xml file :
 <channels>
   <channel id="Images" description="Watch for Images" >
     <trigger/>
-    <localSpool db="E:/notifier/database/images" root="E:/notifier/data/images" subdir="true" delay="5" maxevent="1000" ext="false" includes=".*\.(JPG|jpg|PNG|png|BMP|bmp|TIF|tif)$" excludes=".*\.(xmp|tmp)$" retain="7" >
+    <localSpool db="E:/notifier/database/images" root="E:/notifier/data/images" 
+                subdir="true" delay="5" maxevent="1000" ext="false" 
+                includes=".*\.(JPG|jpg|PNG|png|BMP|bmp|TIF|tif)$" 
+                excludes=".*\.(xmp|tmp)$" retain="7" >
       <fileEventWriter path="E:/notifier/xml/images/images_#.xml" />
       <logEventWriter path="E:/notifier/log/images/" />
     </localSpool>
