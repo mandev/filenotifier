@@ -96,11 +96,11 @@ java -mx256M -jar filenotifier.jar
 
 Contributions are welcome.
 
-Fork the project on Github (git clone ...)
-Create a local feature branch (git checkout -b newFeature)
-Commit modifications on the local feature branch (git commit -am "new modification")
-Push the local branch (git push origin newFeature)
-Create a pull request
+* Fork the project on Github (git clone ...)
+* Create a local feature branch (git checkout -b newFeature)
+* Commit modifications on the local feature branch (git commit -am "new modification")
+* Push the local branch (git push origin newFeature)
+* Create a pull request
 
 ### License
 
