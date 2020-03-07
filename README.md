@@ -76,10 +76,33 @@ with :
 * logEventWriter: the standard TXT event writer
   * path: the output path of the txt event files (path)
 
-### Running
+### Build
+
+Java 8+ is required to build FileNotifier. 
+
+```
+mvn clean install
+```
+
+### Run
 
 You need a Java 1.8+ jdk to run File Notifier.
 
 ```
 java -mx256M -jar filenotifier.jar
 ```
+
+### Contribute
+
+Contributions are welcome.
+
+Fork the project on Github (git clone ...)
+Create a local feature branch (git checkout -b newFeature)
+Commit modifications on the local feature branch (git commit -am "new modification")
+Push the local branch (git push origin newFeature)
+Create a pull request
+
+### License
+
+FileNotifier is provided under [Apache v2 license](http://www.apache.org/licenses/LICENSE-2.0).
+
